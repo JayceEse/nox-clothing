@@ -3,7 +3,7 @@ import { Cart } from '../index.js';
 
 const Navbar = () => {
   return (
-    <div className='flex justify-between w-screen px-[6rem] py-[2rem] bg-black text-white fixed'>
+    <div className='flex justify-between fixed top-0 w-screen px-[6rem] py-[2rem] bg-black text-white'>
       <div className='flex items-center'>
         <h2 className='font-light font-catamaran text-2xl tracking-widest mx-1 border-r border-amber-200 pr-4 mr-4 cursor-pointer'>NOX CLOTHING</h2>
         <p className='mx-3 font-bold text-base uppercase cursor-pointer'>Womens</p>
