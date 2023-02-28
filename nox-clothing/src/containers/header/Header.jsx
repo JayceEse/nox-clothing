@@ -1,24 +1,62 @@
 import React from 'react'
-import {ShowMore} from '../../componets/index.js'
+import {ShowMore, ShowMoreBlack} from '../../componets/index.js'
+import {Bottoms, Jacket, Tshirt, Hoodie } from '../../componets/index'
 
 const Header = () => {
   return (
-    <div 
-      className='
+    <div>
+      <div className='
         bg-[url("../src/assets/header-bg.png")]
-        bg-cover 
+        bg-cover
+        bg-center 
         mt-24
         px-[6rem]
-        py-96
+        pt-[50rem]
+        h-screen
         '>
-      <div className=''>
         <div className='flex flex-col'>
           <h2 className='font-inter text-semibold text-3xl text-white mb-8'>New collection</h2>
           <h1 className='font-robotoCondensed text-medium text-5xl text-white uppercase mb-12'>New Streetwear Outfits</h1>
         </div>
-        <div className='flex justify-center'>
+        <div className='flex flex-row justify-center'>
           <ShowMore/>
         </div>
+      </div>
+      <div className='py-[8rem] px-[6rem]'>
+        <h1 className='flex justify-center mb-10 uppercase'>Popular Products</h1>
+        <div className='flex flex-row justify-between'>
+          <div>
+            <img src={Bottoms} alt="nicce grey bottoms" />
+              <div>
+                <p>Nicce grey bottoms</p>
+                <p>$11.99</p>
+              </div>
+          </div>
+          <div>
+            <img src={Jacket} alt="nicce black jacket" />
+              <div>
+                <p>Nicce Jacket</p>
+                <p>$11.99</p>
+              </div>
+          </div>
+          <div>
+            <img src={Tshirt} alt="nicce t-shirt" />
+              <div>
+                <p>Nicce T-Shirt</p>
+                <p>$11.99</p>
+              </div>
+          </div>
+          <div>
+            <img src={Hoodie} alt="nicce white hoodie" />
+              <div>
+                <p>Nicce Hoodie</p>
+                <p>$11.99</p>
+              </div>
+          </div>
+        </div>
+      </div>
+      <div className='flex justify-center'>
+        <ShowMoreBlack />
       </div>
     </div>
   )
