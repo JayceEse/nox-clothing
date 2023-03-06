@@ -23,7 +23,8 @@ const Header = () => {
         </div>
       </div>
       <div className='py-[8rem] px-[6rem]'>
-        <h1 className='flex justify-center mb-10 uppercase'>Popular Products</h1>
+        <h1 className='flex justify-center font-robotoCondensed text-bold text-5xl uppercase mb-3.5'>Popular Products</h1>
+        <div className='mx-auto mb-20 border-b-4 border-black w-36'></div>
         <div className='flex flex-row justify-between'>
           <div>
             <img src={Bottoms} alt="nicce grey bottoms" />
