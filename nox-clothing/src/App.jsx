@@ -1,5 +1,5 @@
 import { Navbar, Footer } from "./componets/index.js";
-import { Header, About, Contact } from "./containers/index.js";
+import { Header } from "./containers/index.js";
 import "./index.css";
 
 function App() {
@@ -7,8 +7,6 @@ function App() {
     <div className="font-robotoCondensed">
       <Navbar />
       <Header />
-      <About />
-      <Contact />
       <Footer />
     </div>
   );

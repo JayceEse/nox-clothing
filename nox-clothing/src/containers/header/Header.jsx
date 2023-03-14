@@ -30,34 +30,50 @@ const Header = () => {
         </div>
       </div>
       <div className="py-[8rem] px-[6rem]">
-        <h1 className="flex justify-center font-robotoCondensed text-bold text-5xl uppercase mb-3.5">
+        <h1 className="flex justify-center  font-robotoCondensed text-bold md:text-5xl text-2xl uppercase mb-3.5">
           Popular Products
         </h1>
         <div className="mx-auto mb-20 border-b-4 border-black w-36"></div>
         <div className="flex flex-row justify-between">
           <div>
-            <img src={Bottoms} alt="nicce grey bottoms" />
+            <img
+              className="w-auto xl:h-96 lg:h-60 md:h-44 h-28"
+              src={Bottoms}
+              alt="nicce grey bottoms"
+            />
             <div>
               <p>Nicce grey bottoms</p>
               <p>$11.99</p>
             </div>
           </div>
           <div>
-            <img src={Jacket} alt="nicce black jacket" />
+            <img
+              className="w-auto xl:h-96 lg:h-60 md:h-44 h-28"
+              src={Jacket}
+              alt="nicce black jacket"
+            />
             <div>
               <p>Nicce Jacket</p>
               <p>$11.99</p>
             </div>
           </div>
           <div>
-            <img src={Tshirt} alt="nicce t-shirt" />
+            <img
+              className="w-auto xl:h-96 lg:h-60 md:h-44 h-28"
+              src={Tshirt}
+              alt="nicce t-shirt"
+            />
             <div>
               <p>Nicce T-Shirt</p>
               <p>$11.99</p>
             </div>
           </div>
           <div>
-            <img src={Hoodie} alt="nicce white hoodie" />
+            <img
+              className="w-auto xl:h-96 lg:h-60 md:h-44 h-28"
+              src={Hoodie}
+              alt="nicce white hoodie"
+            />
             <div>
               <p>Nicce Hoodie</p>
               <p>$11.99</p>
