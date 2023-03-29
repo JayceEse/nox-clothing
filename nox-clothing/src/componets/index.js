@@ -11,3 +11,7 @@ export { default as Tshirt } from "../assets/sample-tshirt.png";
 export { default as Hoodie } from "../assets/sample-hoodie.png";
 export { default as PromoImg } from "../assets/promoImg.png";
 export { default as SummerSale } from "../assets/summer-sale-img.png";
+export { default as TopBottoms } from "../assets/top-cat-bottoms.png";
+export { default as TopJackets } from "../assets/top-cat-jackets.png";
+export { default as TopShirts } from "../assets/top-cat-shirts.png";
+export { default as TopHoodies } from "../assets/top-cat-hoodies.png";

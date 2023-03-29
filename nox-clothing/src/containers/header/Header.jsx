@@ -6,6 +6,10 @@ import {
   Tshirt,
   Hoodie,
   SummerSale,
+  TopBottoms,
+  TopJackets,
+  TopShirts,
+  TopHoodies,
 } from "../../componets/index";
 
 const Header = () => {
@@ -92,6 +96,45 @@ const Header = () => {
           alt="Summer Sale Promo Image"
           className="w-full h-auto cursor-pointer"
         />
+      </div>
+      <div className="py-[8rem] md:px-[6rem] px-[2rem]">
+        <h1 className="flex justify-center items-center font-robotoCondensed text-bold sm:text-5xl text-xl uppercase mb-3.5">
+          top categories
+        </h1>
+        <div className="mx-auto mb-20 border-b-4 border-black w-36"></div>
+        <div className="flex md:flex-row flex-col justify-center -mx-2">
+          <div className="md:my-0 my-4">
+            <img
+              className="w-full px-5 cursor-pointer"
+              src={TopBottoms}
+              alt="nicce grey bottoms"
+            />
+          </div>
+          <div className="md:my-0 my-4">
+            <img
+              className="w-full px-5 cursor-pointer"
+              src={TopJackets}
+              alt="nicce black jacket"
+            />
+          </div>
+          <div className="md:my-0 my-4">
+            <img
+              className="w-full px-5 cursor-pointer"
+              src={TopShirts}
+              alt="nicce t-shirt"
+            />
+          </div>
+          <div className="md:my-0 my-4">
+            <img
+              className="w-full px-5 cursor-pointer"
+              src={TopHoodies}
+              alt="nicce white hoodie"
+            />
+          </div>
+        </div>
+      </div>
+      <div className="flex justify-center mb-16">
+        <ShowMoreBlack />
       </div>
     </div>
   );
