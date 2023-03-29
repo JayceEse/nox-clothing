@@ -10,3 +10,4 @@ export { default as Jacket } from "../assets/sample-jacket.png";
 export { default as Tshirt } from "../assets/sample-tshirt.png";
 export { default as Hoodie } from "../assets/sample-hoodie.png";
 export { default as PromoImg } from "../assets/promoImg.png";
+export { default as SummerSale } from "../assets/summer-sale-img.png";

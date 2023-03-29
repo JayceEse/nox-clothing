@@ -1,6 +1,12 @@
 import React from "react";
 import { ShowMore, ShowMoreBlack } from "../../componets/index.js";
-import { Bottoms, Jacket, Tshirt, Hoodie } from "../../componets/index";
+import {
+  Bottoms,
+  Jacket,
+  Tshirt,
+  Hoodie,
+  SummerSale,
+} from "../../componets/index";
 
 const Header = () => {
   return (
@@ -29,60 +35,63 @@ const Header = () => {
           <ShowMore />
         </div>
       </div>
-      <div className="py-[8rem] px-[6rem]">
-        <h1 className="flex justify-center  font-robotoCondensed text-bold md:text-5xl text-2xl uppercase mb-3.5">
+      <div className="py-[8rem] md:px-[6rem] px-[2rem]">
+        <h1 className="flex justify-center items-center font-robotoCondensed text-bold sm:text-5xl text-xl uppercase mb-3.5">
           Popular Products
         </h1>
         <div className="mx-auto mb-20 border-b-4 border-black w-36"></div>
-        <div className="flex flex-row justify-between">
-          <div>
+        <div className="flex md:flex-row flex-col justify-center -mx-2">
+          <div className="md:my-0 my-4">
             <img
-              className="w-auto xl:h-96 lg:h-60 md:h-44 h-28"
+              className="w-full px-5"
               src={Bottoms}
               alt="nicce grey bottoms"
             />
-            <div>
+            <div className="pl-5">
               <p>Nicce grey bottoms</p>
               <p>$11.99</p>
             </div>
           </div>
-          <div>
+          <div className="md:my-0 my-4">
             <img
-              className="w-auto xl:h-96 lg:h-60 md:h-44 h-28"
+              className="w-full px-5"
               src={Jacket}
               alt="nicce black jacket"
             />
-            <div>
+            <div className="pl-5">
               <p>Nicce Jacket</p>
               <p>$11.99</p>
             </div>
           </div>
-          <div>
-            <img
-              className="w-auto xl:h-96 lg:h-60 md:h-44 h-28"
-              src={Tshirt}
-              alt="nicce t-shirt"
-            />
-            <div>
+          <div className="md:my-0 my-4">
+            <img className="w-full px-5" src={Tshirt} alt="nicce t-shirt" />
+            <div className="pl-5">
               <p>Nicce T-Shirt</p>
               <p>$11.99</p>
             </div>
           </div>
-          <div>
+          <div className="md:my-0 my-4">
             <img
-              className="w-auto xl:h-96 lg:h-60 md:h-44 h-28"
+              className="w-full px-5"
               src={Hoodie}
               alt="nicce white hoodie"
             />
-            <div>
+            <div className="pl-5">
               <p>Nicce Hoodie</p>
               <p>$11.99</p>
             </div>
           </div>
         </div>
       </div>
-      <div className="flex justify-center">
+      <div className="flex justify-center mb-16">
         <ShowMoreBlack />
+      </div>
+      <div className="py-[8rem] sm:px-[6rem] px-[2rem] bg-black">
+        <img
+          src={SummerSale}
+          alt="Summer Sale Promo Image"
+          className="w-full h-auto cursor-pointer"
+        />
       </div>
     </div>
   );
