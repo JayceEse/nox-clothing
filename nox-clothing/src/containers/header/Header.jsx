@@ -23,8 +23,8 @@ const Header = () => {
         mt-24
         px-[6rem]
         pt-[50rem]
-        w-auto
-        h-screen
+        w-screen
+        h-auto
         '
       >
         <div className="flex flex-col lg:items-start items-center">
